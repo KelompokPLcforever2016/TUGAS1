@@ -47,7 +47,7 @@ class perpustakaanx{
 		}
 };
 
-int main(){	
+int main(){
 		//tek
 		perpustakaanx *bukutek1 = new perpustakaanx();
 		bukutek1->setNamaBuku("Buku 1 Kamus Teknologi Informasi Komunikasi");
@@ -294,16 +294,8 @@ int main(){
 				bukusej4->tampil(kategori);
 				bukusej5->tampil(kategori);
 			}
-			if(pilihkategoribuku==4){//--filsafat
-				string kategori = "Agama";
-				cout<<" -"<<kategori<<"- \n" ;
-				//Tambah Buku 
-				bukuagm1->setGolongan(kategori);
-				bukuagm2->setGolongan(kategori);
-				bukuagm1->tampil(kategori);
-				bukuagm2->tampil(kategori);
-			}	
-						if(pilihkategoribuku==4){//--Agama
+			
+				if(pilihkategoribuku==4){//--Agama
 				string kategori = "Agama";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
@@ -361,10 +353,10 @@ int main(){
 				bukufik4->setGolongan(kategori);
 				bukufik5->setGolongan(kategori);
 				bukufik1->tampil(kategori);
-				bukufik2->tampil(kategori);
-				bukufil3->tampil(kategori);
-				bukufil4->tampil(kategori);
-				bukufil5->tampil(kategori);
+				bukufik2->tampil(kategori);	
+				bukufik3->tampil(kategori);
+				bukufik4->tampil(kategori);
+				bukufik5->tampil(kategori);
 			}
 			} while(pilihkategoribuku!=0);
-}
+		}
